@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+	    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About enquiry</title>
+            <style>
+		        body{
+                    background-color: whitesmoke;
+                    color:darkblue
+		        }
+            nav{
+                background-color: slategrey;
+                color: antiquewhite;
+                padding: 15px;
+                border: 2px;
+                margin: 30px;
+                text-align: center;
+            }
+            a{
+                width: 10px;
+                color: black;
+                background-color: lightblue;
+                padding: 10px;
+                margin: auto;
+            }
+            div{
+                width:40%;
+                height:200px;
+                display: inline-block;
+                border: 2px dashed lightslategray;
+                margin-left: 50px;
+                margin-bottom: 15px;
+                background-color: burlywood;
+                color: chocolate;
+            }
+            section{
+                text-align: center;
+            }
+		    footer{
+			    text-align: center;
+			    color: darkred;
+			    bottom: 0px;
+			    position: fixed;
+		    }
+	    </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+		        <a href="../HTML & CSS/home.html">HOME</a>	
+		        <a href="../HTML & CSS/rooms.html">ROOMS</a>
+		        <a href="../HTML & CSS/about.html">ABOUT</a>
+		        <a href="../HTML & CSS/facility.html">FACILITIES</a>
+		        <a href="../HTML & CSS/enquiry.html">ENQUIRIES</a>
+	        </nav>
+        </header>
+        <form>
+            <p>
+                <input type="text" placeholder="Enter the Name" id="name"/>
+            </p>
+            <p>
+                <input type="text" placeholder="Enter the contact Number" id="phone number"/>
+            </p>
+            <p>
+                <input type="text" placeholder="Enter the email address" id="email"/>
+            </p>
+            <p>
+                <input type="date" placeholder="Enter the Check-in date" id="check-in"/>
+            </p>
+            <p>
+                <input type="text" placeholder="Enter number of days" id="days"/>
+            </p>
+            <p>
+                Food Preference:
+            <input type="radio" name="food">Veg<input type="radio" name="food">Non-Veg
+            </p>
+            <p>
+                Lifestyle Requirements:
+                <input type="checkbox">Spa 
+                <input type="checkbox">Pool
+                <input type="checkbox">Drinks
+                <input type="checkbox">Laundry
+                <input type="checkbox">GYM
+                <input type="checkbox">Party Hall
+            </p>
+            <p>
+                Travelling Facilities:
+                <input type="checkbox">Pick-up from Airport
+                <input type="checkbox">Doesn't require
+            </p>
+        </form>
+        <footer>    
+	        &copy;Copyrights belongs to Sapthasagar H
+        </footer>
+    </body> 
+</html>
