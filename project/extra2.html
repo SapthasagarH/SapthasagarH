@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <h1>FEEDBACK FORM</h1>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        nav{
+            background-color: red;
+            color: antiquewhite;
+            padding: 15px;
+            border: 2px;
+            margin: 10px;
+            text-align: center;
+        }
+        h1{
+            background-color:#373a40;
+            font-family: 'Sansita Swashed', cursive;
+            color: white;
+            text-align: center;
+            /*padding: 30;*/
+            margin: 0px;  
+        }
+        a{
+            width: 10px;
+            color: white;
+           /* background-color: yellow;*/
+            padding: 10px;
+            /*margin: auto;*/
+        }
+        footer{
+            text-align: center;
+            color: white;
+            bottom: 0px;
+            position: fixed;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="trial.html">HOMEPAGE</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="./forms.html">ENQUIRIES</a>
+        </nav>
+    </header>
+    <section>
+        <form align="center">
+            <p>ENTER YOUR NAME: <input type="text" placeholder="Enter the Name" id="empName"></p>    
+            <p>ENTER EMAIL-ID : <input type="email" placeholder="Enter the e-mail" id="empEmail"></p>
+            <p>ENTER PHONE NUMBER : <input type="tel" placeholder="Enter Phone number" id="empPhone"></p>
+                       
+            <p>Overall Experience : <select id="empQualification">
+                <option>Excellent</option>
+                <option>GOOD</option>
+                <option>Average</option>
+                <option>Bad</option>
+            </select></p>
+
+            <p>
+                Billing to:<input type="radio" name="billoc">Home<input type="radio" name="billoc">Office
+            </p>
+            <p>
+                Other Related Queries:
+                <input type="Checkbox">Swimming Pool
+                <input type="Checkbox">Gym
+                <input type="Checkbox">Restaurant
+                <input type="Checkbox">Coffee shop
+                <input type="Checkbox">Suite
+            </p>
+            <button type="button">SUBMIT</button>
+            <p>Rate your stay in sunshine resorts
+                <input type="range" min="1" max="10" step="1/">
+            </p>
+            <p>
+
+            </p>
+        </form>
+    </section>   
+    <div>
+    <footer align="center">
+        Thank you.<br>
+       <h5> &copy;copyright Sunshine resorts.</h5> 
+    </footer>
+    </div>
+</body>
+</html>
